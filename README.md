@@ -120,7 +120,7 @@ Add screenshots to `docs/images/` and link them here:
 
 ## Author
 
-**ELOHOR EGWEREHE ** | [LinkedIn](https://www.linkedin.com/) | [Email](egwerehe@gmail.com)
+**ELOHOR EGWEREHE ** | [[LinkedIn](https://www.linkedin.com/](https://www.linkedin.com/in/elohor-egwerehe-8739b9244/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrPgnTiLMSv%2BvfdgwWuwKmA%3D%3D)) | [Email](egwerehe@gmail.com)
 
 ## License
 
