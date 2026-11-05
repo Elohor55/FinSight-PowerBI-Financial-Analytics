@@ -33,7 +33,7 @@ Management reported strong sales growth but no matching profit growth. The goal 
 - **Every branch loses money** in both years. Only Abuja Central improved (-100.3M to -76.2M). Lagos Mainland (Ikeja) has the largest loss (about -378M in 2025).
 - The business was already in loss in 2024, with operating expenses at 63% of revenue.
 
-See [docs/03_findings.md](docs/03_findings.md) for the full analysis.
+
 
 ## Tools
 
@@ -85,42 +85,6 @@ All relationships are one-to-many, single direction, from dimension to fact.
 | Duplicate chart of accounts sheet | 1 sheet | Not loaded |
 | Repeated PLLineSort values across groups | n/a | Sort within group, never on this column alone |
 
-Details in [docs/01_data_dictionary_and_quality.md](docs/01_data_dictionary_and_quality.md).
-
-## Repository structure
-
-```
-FinSight-PowerBI-Financial-Analytics/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── data/
-│   └── README.md                 # where to place the source workbook
-├── powerquery/
-│   ├── FactFinancialTransactions.pq
-│   └── Dimensions_Unassigned.pq
-├── dax/
-│   ├── 01_DimDate.dax
-│   ├── 02_Measures.dax
-│   └── 03_PL_Layout.dax
-├── docs/
-│   ├── 01_data_dictionary_and_quality.md
-│   ├── 02_build_guide.md
-│   ├── 03_findings.md
-│   ├── 04_recommendations.md
-│   └── images/                   # add dashboard screenshots here
-└── report/
-    └── README.md                 # where to place the .pbix file
-```
-
-## How to reproduce
-
-1. Clone the repository.
-2. Place the source workbook in `data/` (see [data/README.md](data/README.md)).
-3. In Power BI Desktop, load the five tables, then paste the code from `powerquery/` into the Advanced Editor of each query.
-4. Create the calendar and measures from the `dax/` files.
-5. Follow [docs/02_build_guide.md](docs/02_build_guide.md) for relationships and report pages.
-6. Check that Net Profit shows about -691M (2024) and -1,375M (2025).
 
 ## Dashboard pages
 
@@ -146,7 +110,7 @@ Add screenshots to `docs/images/` and link them here:
 5. Replicate Abuja Central's cost practices in other branches.
 6. Track gross margin and operating cost as a share of revenue every month.
 
-See [docs/04_recommendations.md](docs/04_recommendations.md).
+
 
 ## Limitations
 
@@ -156,7 +120,7 @@ See [docs/04_recommendations.md](docs/04_recommendations.md).
 
 ## Author
 
-**Your Name** | [LinkedIn](https://www.linkedin.com/) | [Email](mailto:you@example.com)
+**ELOHOR EGWEREHE ** | [LinkedIn](https://www.linkedin.com/) | [Email](egwerehe@gmail.com)
 
 ## License
 
